@@ -20,7 +20,6 @@ export const CityWeather = ({cityProps}) => {
     <Card bg={"secondary"} className="mt-5">
     <Card.Header>Wind</Card.Header>
     <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
         <Card.Text>
             <p>Speed {cityProps.wind.speed}</p>
             <p>Gust {cityProps.wind.gust}/hour</p>

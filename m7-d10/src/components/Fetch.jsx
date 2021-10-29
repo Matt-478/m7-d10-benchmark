@@ -27,7 +27,7 @@ const Fetch = () => {
   useEffect(() => {
     // fetchData()
       fetchData()
-  }, [] )
+  },)
 
 
   const handleChange = (e) => {
