@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* GRADIENTS */
+/* cold */
+.cold {
+  background: rgb(9,6,66);
+  background: radial-gradient(circle, rgba(9,6,66,1) 0%, rgba(9,121,115,1) 27%, rgba(167,233,237,1) 47%, rgba(103,229,255,1) 72%);
+}
+
+.medium-cold {
+  background: rgb(100,96,182);
+  background: radial-gradient(circle, rgba(100,96,182,1) 0%, rgba(39,118,179,1) 27%, rgba(168,167,221,1) 47%, rgba(167,240,255,1) 72%);}
+
+.light-warm {
+  background: rgb(131,58,180);
+  background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(219,134,134,1) 36%, rgba(252,176,69,1) 85%);
+}
+
+.warm {
+  background: rgb(131,58,180);
+  background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(196,78,78,1) 36%, rgba(210,86,19,0.9598214285714286) 56%, rgba(255,163,34,1) 85%);
+}
+
+.hot {
+  background: rgb(190,30,62);
+  background: radial-gradient(circle, rgba(190,30,62,1) 0%, rgba(194,45,45,1) 36%, rgba(177,77,23,1) 56%, rgba(255,113,34,1) 85%);
+}

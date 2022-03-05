@@ -5,7 +5,7 @@ import {Container, Row, Col, InputGroup, FormControl} from 'react-bootstrap'
 const Fetch = () => {
 
   const[weatherData, setWeatherData] = useState([])
-  const[query, setQuery] = useState("paris")
+  const[query, setQuery] = useState("")
 
 
   const fetchData = async() => {
@@ -54,7 +54,7 @@ const Fetch = () => {
             </InputGroup>
           </Col>
           <Col md={8}>
-            <h2>The Weather today in {query}</h2>
+            <h2>The Weather today in {query === "" ? "Paris" : query}</h2>
             <CityWeather cityProps={weatherData}/>
           </Col>
         </Row>
