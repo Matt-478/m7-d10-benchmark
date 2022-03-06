@@ -1,6 +1,6 @@
 import {Card} from 'react-bootstrap'
 
-export const CityWeather = ({cityProps}) => {
+export const CityWeather = ({ cityProps }) => {
   return(
     <>
 
@@ -8,8 +8,8 @@ export const CityWeather = ({cityProps}) => {
     <Card.Header>Temperature</Card.Header>
     <Card.Body>
         <Card.Text>
-        {/* <Card.Title> Feels like {cityProps.main.temp}</Card.Title> */}
-          <p>Feels like {cityProps.main.temp}</p>
+        <Card.Title> Feels like {cityProps.main.temp}</Card.Title> 
+           <p>Feels like {cityProps.main.temp}</p>
           <p>Actual temperature: {cityProps.main.temp_max}</p>
           <p>Todays highest: {cityProps.main.temp_max}</p>
           <p>Todays lowest: {cityProps.main.temp_min}</p>
@@ -26,6 +26,7 @@ export const CityWeather = ({cityProps}) => {
         </Card.Text>
       </Card.Body>
     </Card>
+    {/* weather here */}
     </>
   )
 }
