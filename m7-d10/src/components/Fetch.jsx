@@ -53,7 +53,7 @@ const Fetch = () => {
              </InputGroup>
            </Col>
            <Col md={8}>
-             <h2>The Weather today in {query === "" ? "Riga" : query}</h2>
+             <h2>The Weather today in {query === "" ? "somewhere" : query}</h2>
              {
                weatherData.id ? <CityWeather cityProps={weatherData}/> : "Please type in a location"
              }
