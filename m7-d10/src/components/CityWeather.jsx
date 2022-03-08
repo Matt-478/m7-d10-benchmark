@@ -21,8 +21,8 @@ export const CityWeather = ({ cityProps }) => {
     <Card.Header>Wind</Card.Header>
     <Card.Body>
         <Card.Text>
-            <p>Speed {cityProps.wind.speed}</p>
-            <p>Gust {cityProps.wind.gust}/hour</p>
+            <p>Speed {cityProps.wind.speed} km/hour</p>
+            <p>Gust {cityProps.wind.gust} km/hour</p>
         </Card.Text>
       </Card.Body>
     </Card>
